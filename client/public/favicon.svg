@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">ShowTime favicon</title>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071533"/>
+      <stop offset="100%" stop-color="#101f4a"/>
+    </linearGradient>
+    <linearGradient id="play" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef00ff"/>
+      <stop offset="55%" stop-color="#7134ff"/>
+      <stop offset="100%" stop-color="#159cff"/>
+    </linearGradient>
+    <linearGradient id="film" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef24ff"/>
+      <stop offset="50%" stop-color="#7544ff"/>
+      <stop offset="100%" stop-color="#159cff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- rounded app-icon background -->
+  <rect x="4" y="4" width="120" height="120" rx="27" fill="url(#bg)"/>
+
+  <!-- clapperboard body -->
+  <rect x="27" y="45" width="74" height="51" rx="9" fill="#0b2145" stroke="#173b70" stroke-width="3"/>
+
+  <!-- play button -->
+  <path d="M50 56 L50 85 Q50 91 56 88 L81 73 Q86 70 81 67 L56 53 Q50 50 50 56Z" fill="url(#play)"/>
+  <path d="M59 61 L59 81 L76 71 Z" fill="#fff"/>
+
+  <!-- sprocket holes -->
+  <g fill="#fff">
+    <rect x="32" y="54" width="7" height="9" rx="2"/>
+    <rect x="32" y="66" width="7" height="9" rx="2"/>
+    <rect x="32" y="78" width="7" height="9" rx="2"/>
+  </g>
+
+  <!-- clapper -->
+  <path d="M23 34 L96 15 Q101 14 103 19 L108 34 Q109 39 104 40 L31 59 Q26 60 25 55 L20 40 Q19 35 23 34Z"
+        fill="#071533" stroke="#173b70" stroke-width="3"/>
+
+  <!-- clapper stripes -->
+  <path d="M34 31 L45 28 L54 39 L43 42 Z" fill="url(#film)"/>
+  <path d="M52 26 L63 23 L72 34 L61 37 Z" fill="url(#film)"/>
+  <path d="M70 21 L81 18 L90 29 L79 32 Z" fill="url(#film)"/>
+  <path d="M88 17 L98 15 L105 25 L94 28 Z" fill="url(#film)"/>
+
+  <!-- small filmstrip curve -->
+  <path d="M20 96 C37 105 55 108 75 106 C91 105 102 100 109 94"
+        fill="none" stroke="url(#film)" stroke-width="5" stroke-linecap="round"/>
+</svg>

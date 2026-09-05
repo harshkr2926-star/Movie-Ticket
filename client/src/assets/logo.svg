@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">ShowTime logo</title>
+  <desc id="desc">A cinematic clapperboard and filmstrip icon followed by the ShowTime wordmark.</desc>
+  <defs>
+    <linearGradient id="timeGradient" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#d600ff"/>
+      <stop offset="48%" stop-color="#6b28ff"/>
+      <stop offset="100%" stop-color="#00a8ff"/>
+    </linearGradient>
+    <linearGradient id="playGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff00d4"/>
+      <stop offset="100%" stop-color="#246cff"/>
+    </linearGradient>
+    <linearGradient id="filmGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef24ff"/>
+      <stop offset="55%" stop-color="#8b45ff"/>
+      <stop offset="100%" stop-color="#159cff"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".22"/>
+    </filter>
+  </defs>
+
+  <!-- Icon -->
+  <g transform="translate(22 45)" filter="url(#shadow)">
+    <!-- flowing filmstrip -->
+    <path d="M8 250 C45 205 105 188 180 205 C250 221 285 260 315 287
+             C274 303 225 311 174 304 C105 295 52 278 8 250 Z"
+          fill="#071533" stroke="url(#filmGradient)" stroke-width="8"/>
+    <g fill="#fff" opacity=".95">
+      <path d="M34 250 l22 8 -10 19 -22 -8z"/>
+      <path d="M70 264 l23 7 -9 20 -23 -7z"/>
+      <path d="M108 275 l24 5 -7 21 -24 -5z"/>
+      <path d="M148 282 l25 3 -4 21 -25 -3z"/>
+      <path d="M190 284 l25 -1 2 20 -25 2z"/>
+      <path d="M232 278 l24 -5 7 19 -24 7z"/>
+      <path d="M270 266 l22 -9 11 17 -22 10z"/>
+    </g>
+
+    <!-- clapper body -->
+    <rect x="42" y="90" width="255" height="164" rx="24" fill="#071533" stroke="#0c2a58" stroke-width="7"/>
+    <!-- play panel -->
+    <rect x="92" y="112" width="154" height="112" rx="18" fill="#0b2145"/>
+    <path d="M126 135 L126 201 Q126 214 138 207 L210 170 Q222 163 210 156 L138 129 Q126 124 126 135Z"
+          fill="url(#playGradient)"/>
+    <path d="M147 148 L147 189 L190 168 Z" fill="#fff"/>
+
+    <!-- sprocket holes -->
+    <g fill="#fff">
+      <rect x="58" y="111" width="22" height="27" rx="5"/>
+      <rect x="58" y="149" width="22" height="27" rx="5"/>
+      <rect x="58" y="187" width="22" height="27" rx="5"/>
+    </g>
+
+    <!-- top clapper -->
+    <path d="M30 66 L282 5 Q298 1 302 17 L311 54 Q315 70 299 74 L47 135 Q31 139 27 123 L18 86 Q14 70 30 66Z"
+          fill="#071533" stroke="#0c2a58" stroke-width="7"/>
+    <!-- clapper stripes -->
+    <path d="M54 59 L92 50 L119 82 L81 91 Z" fill="url(#filmGradient)"/>
+    <path d="M112 45 L151 36 L178 68 L139 77 Z" fill="url(#filmGradient)"/>
+    <path d="M172 30 L211 21 L238 53 L199 62 Z" fill="url(#filmGradient)"/>
+    <path d="M232 16 L270 7 L297 39 L259 48 Z" fill="url(#filmGradient)"/>
+    <circle cx="35" cy="91" r="7" fill="#fff"/>
+    <circle cx="42" cy="118" r="7" fill="#fff"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="166" letter-spacing="-7">
+    <text x="355" y="270" fill="#06132f">Show</text>
+    <text x="730" y="270" fill="url(#timeGradient)">Time</text>
+  </g>
+
+  <!-- sparkle -->
+  <path d="M1024 70 C1031 94 1039 102 1064 109 C1039 116 1031 124 1024 148
+           C1017 124 1009 116 984 109 C1009 102 1017 94 1024 70Z"
+        fill="url(#timeGradient)"/>
+</svg>
